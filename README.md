@@ -77,11 +77,15 @@ If you prefer to run the `command` locally on your own system, follow these step
    ```shell
    cd command
    ```
-3. Build the project
+3. Install the project dependencies
+   ```shell
+   yarn install
+   ```
+4. Build the project
    ```shell
    yarn run build
    ```
-4. Start the project:
+5. Start the project:
 
    ```shell
    yarn run serve
