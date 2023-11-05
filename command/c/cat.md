@@ -2,9 +2,9 @@
 
 ## Description
 
-`cat` is a standard Unix utility that reads files sequentially, writing them to standard output. The name is derived from its function to (con)**cat**enate files(from Latin _catenare_).
+`cat` is a standard Unix utility that reads files sequentially, writing them to standard output. The name is derived from its function to (con)**cat**enate files(from Latin _catenare_, "to chain"). It has been ported to a number of operating systems.
 
-The other primary purpose of `cat`, aside from concatenation, is **file printing** i.e. _allowing the computer user to view the contents of a file._
+The other primary purpose of `cat`, aside from concatenation, is **file printing** i.e. _allowing the user to view the contents of a file._
 
 The command syntax is:
 
@@ -12,11 +12,13 @@ The command syntax is:
 cat [flags] [file_names]
 ```
 
-The `cat` utility serves a dual purpose: _[concatenating](#concatenation) and [printing](#printing)._
+The `cat` utility serves a dual purpose: _[printing](#printing) and [concatenating](#concatenating)_
 
 ### _Printing:_
 
-With a single argument, it is often used to print a files to a user's terminal.
+With a single argument, it is used to print the contents of a file to the user's terminal.
+
+You can also print multiple files at once by passing multiple file names as arguments to `cat`. An example is provided in the next section.
 
 Suppose you have a file with name`file.txt` with following lines.
 
@@ -36,9 +38,9 @@ This is file.txt.
 
 ---
 
-### _Concatenation:_
+### _Concatenating:_
 
-With more than one argument, it concatenates several files and combined result is by default printed to the terminal, but user often redirects the result into another files.
+When given multiple arguments, it concatenates the specified files and prints the combined result to the terminal by default. However, you can redirect the result to another file.
 
 Suppose we have two files named `file1.txt` and `file2.txt` with following lines.
 
@@ -70,12 +72,12 @@ cat file1.txt file2.txt > file3.txt
 
 _Output:_
 
-_`file3.txt` will be created which will contain the output of `cat file1.txt file2.txt`i.e.`This is file1.txt.This is file2.txt.`_
+_`file3.txt` will be created which will contain the output of `cat file1.txt file2.txt` i.e.`This is file1.txt.This is file2.txt.`_
 
 Note:
 
-- _`>` is used to overwrite (“clobber”) a file and `>>` is used to append to a file. When you use `cat file1.txt file2.txt > file3.txt`, the output of ` cat file1.txt file2.txt`` will be written to  `file3.txt` and if a file named file was already present, its contents will be overwritten._
-- _`>>` is used to append to a file. When you use `cat file1.txt file2.txt >> file3.txt`, the output of `cat file1.txt file2.txt` will be written to file and if the file named file was already present, the file will now contain its previous contents and also the contents of `cat file1.txt file2.txt`, written after its older contents of file._
+- _`>` is used to overwrite (“clobber”) a file and `>>` is used to append to a file. When you use `cat file1.txt file2.txt > file3.txt`, the output of ` cat file1.txt file2.txt` will be written to `file3.txt` and if `file3.txt` already exists, its contents will be overwritten._
+- _`>>` is used to append to a file. When you use `cat file1.txt file2.txt >> file3.txt`, the output of `cat file1.txt file2.txt` will be appended to the contents of `file3.txt`. If `file3.txt` doesn't exist, it will create a new file named `file3.txt` with the output of `cat file1.txt file2.txt`, which is equivalent to `cat file1.txt file2.txt > file3.txt`._
 
 ## Flags
 
@@ -143,7 +145,7 @@ publishing software like Ald
 
 **Description:**
 
-With `-b` options, the `cat` command will number only non-blank output lines ignoring the empty ones.
+With `-b` option, the `cat` command will number only non-blank output lines ignoring the empty ones.
 
 **Usage:**
 
@@ -242,9 +244,9 @@ was popularised in the 196
 publishing software like Ald
 ```
 
-## Examples
+## Use cases
 
-1. Imagine you're on your computer, and you want to quickly check out what's inside a file, maybe it's a fun story or an important message from a friend. You can use the "cat" command to open the file and see its content.
+1. Imagine you're on your computer, and you want to quickly check out what's inside a file, maybe it's a funny story or an important message from a friend. You can use the "cat" command to open the file and see its content.
 
    ```shell
    cat story.txt
@@ -274,7 +276,7 @@ publishing software like Ald
    cat file1.txt > file2.txt
    ```
 
-6. Imagine you're reading a book with a lot of pages. Instead of flipping through every page, you can use this command to read it one section at a time.
+6. Imagine you're reading a book with a lot of pages. Instead of flipping through every page, you can use [less](...) command to read it one section at a time.
 
    ```shell
    cat chap1.txt chap2.txt chap3.txt | less
@@ -297,7 +299,7 @@ cat favorite_book.txt | less
 _Simpler and Better Way:_
 
 ```shell
-less | favorite+book.txt
+less | favorite_book.txt
 ```
 
 _In the case of the "Useless Use of Cat," you're essentially vocalizing the book using the "cat" command before passing it on. However, a more straightforward approach is to directly hand over the book to your friend for reading. This method is simpler, avoiding unnecessary extra steps._
@@ -306,9 +308,9 @@ _In the case of the "Useless Use of Cat," you're essentially vocalizing the book
 
 1. File Concatenation
 
-   - Create three text files, such as `file1.txt`, `file2.txt`, and `file3.txt`, with some sample text in each.
+   - Create three text files, eg. `file1.txt`, `file2.txt`, and `file3.txt`, with some sample text in each.
    - Use the cat command to concatenate the contents of `file1.txt`, `file2.txt`, and `file3.txt` into a single file, let's call it all `files.txt`.
-   - Verify that all f`iles.txt` contains the combined text from the three original files.
+   - Verify that all `files.txt` contains the combined text from the three original files.
 
 2. Creating and Copying files
 
