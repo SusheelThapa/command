@@ -79,7 +79,7 @@ Note:
 
 ## Flags
 
-Some of the popular flags that are used with `cat command are as follows:
+Some of the popular flags that are used with `cat` command are as follows:
 
 - [`-n`](#n): number all output lines
 - [`-s`](#s): suppress repeated empty output lines.
@@ -256,7 +256,7 @@ publishing software like Ald
    cat firstname.txt lastname.txt
    ```
 
-3. magine you're reading a long comic book, and you want to tell your friend about specific pages. You can add page numbers to the comic using this command.
+3. Imagine you're reading a long comic book, and you want to tell your friend about specific pages. You can add page numbers to the comic using this command.
 
    ```shell
    cat -n comic.txt > numberedcomic.txt
