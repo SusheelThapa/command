@@ -12,13 +12,17 @@ The command syntax is:
 cat [flags] [file_names]
 ```
 
----
+The `cat` utility serves a dual purpose: _[concatenating](#concatenation) and [printing](#printing)._
 
-The `cat` utility serves a dual purpose: _concatenating and printing._
+### _Printing:_
 
 With a single argument, it is often used to print a files to a user's terminal.
 
-_Printing:_
+Suppose you have a file with name`file.txt` with following lines.
+
+> This is file.txt.
+
+Let's use `cat` command to print the content of `file.txt`.
 
 ```shell
 cat file.txt
@@ -32,9 +36,21 @@ This is file.txt.
 
 ---
 
+### _Concatenation:_
+
 With more than one argument, it concatenates several files and combined result is by default printed to the terminal, but user often redirects the result into another files.
 
-_Concatenation:_
+Suppose we have two files named `file1.txt` and `file2.txt` with following lines.
+
+_`file1.txt`_
+
+> This is file1.txt
+
+_`file2.txt`_
+
+> This is file2.txt
+
+Let's use `cat` command to concatenate `file1.txt` and `file2.txt`
 
 ```shell
 cat file1.txt file2.txt
@@ -49,12 +65,17 @@ This is file1.txt.This is file2.txt
 _Redirection:_
 
 ```shell
-cat file1.txt cat file2.txt > file3.txt
+cat file1.txt file2.txt > file3.txt
 ```
 
 _Output:_
 
 _`file3.txt` will be created which will contain the output of `cat file1.txt file2.txt`i.e.`This is file1.txt.This is file2.txt.`_
+
+Note:
+
+- _`>` is used to overwrite (“clobber”) a file and `>>` is used to append to a file. When you use `cat file1.txt file2.txt > file3.txt`, the output of ` cat file1.txt file2.txt`` will be written to  `file3.txt` and if a file named file was already present, its contents will be overwritten._
+- _`>>` is used to append to a file. When you use `cat file1.txt file2.txt >> file3.txt`, the output of `cat file1.txt file2.txt` will be written to file and if the file named file was already present, the file will now contain its previous contents and also the contents of `cat file1.txt file2.txt`, written after its older contents of file._
 
 ## Flags
 
