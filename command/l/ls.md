@@ -168,7 +168,7 @@ ls --help
 
 ## Additional Information
 
-As seen in example 1, the flags can be combined. This is common for all commands in linux that do not take a parameter after the flag.  Hence the `-l` and `-a` flag can be combined to `-la` flag.
+As seen in [example 1](#examples), the flags can be combined. This is common for all commands in linux that do not take a parameter after the flag. Hence the `-l` and `-a` flag can be combined to `-la` flag.
 
 ## Exercises
 
