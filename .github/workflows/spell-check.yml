@@ -1,4 +1,5 @@
-name: typos on PR
+name: Spell Check on Pull Request
+
 on: [pull_request]
 
 jobs:
@@ -9,7 +10,7 @@ jobs:
       - name: Checkout Actions Repository
         uses: actions/checkout@v4
 
-      - name: Check spelling on Markdown files
+      - name: Run Spell Check on Markdown Files
         uses: crate-ci/typos@master
         with:
           files: ./*.md
