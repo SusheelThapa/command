@@ -158,4 +158,4 @@ Save this file
 
 2. Create a file with your name with the `echo` command and the `>` redirect operator.
 
-3. Create a file with two lines `Hello` and `World` using a single `echo` command and the `>`redirect operator.
+3. Create a file with two lines `Hello` and `World` using a single `echo` command and the `>` redirect operator.
