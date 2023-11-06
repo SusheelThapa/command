@@ -26,7 +26,7 @@ Some of the popular flags that are used with `ls` command are as follows:
 
 **Description:**
 
-With the `-a` option, the `ls` command will show hidden files and sub-folders. By defaultfiles and folders beginning with `.` are hidden and they are not listed when doing a typical `ls` command
+With the `-a` option, the `ls` command will show hidden files and sub-folders. By default, files and folders beginning with `.` are hidden and they are not listed when doing a typical `ls` command
 
 **Usage:**
 Consider we are inside a folder that contains three files: `file1.txt`, `file2.txt` and a hidden file `.file.txt`. If we want to see the hidden file we need to use the `-a` flag as:
