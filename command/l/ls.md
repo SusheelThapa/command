@@ -150,7 +150,7 @@ ls --help
    ls -la ~ or ls -l -a ~
    ```
 
-2. If you want to know what the items are contained in the /etc folder of the filesystem:
+2. If you want to know the items contained in `/etc` folder of the filesystem:
 
    ```shell
    ls /etc or ls [path_to_etc]
