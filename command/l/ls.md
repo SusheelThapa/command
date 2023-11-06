@@ -16,11 +16,11 @@ ls [flags] [path to directory]
 
 Some of the popular flags that are used with `ls` command are as follows:
 
-- [`-a`](#a) or `--all`: lists hidden items
-- [`-l`](#l): display more information about the items.
-- [`-r`](#r): lists the items in reverse order.
-- [`-t`](#t): lists the item sorted by time.
-- [`--help`](#help): get more information about the command and uncommon flags. 
+- [`-a`](#-a) or `--all`: lists hidden items
+- [`-l`](#-l): display more information about the items.
+- [`-r`](#-r): lists the items in reverse order.
+- [`-t`](#-t): lists the item sorted by time.
+- [`--help`](#--help): get more information about the command and uncommon flags. 
 
 ### `-a`
 
@@ -147,8 +147,14 @@ ls --help
 1. When you want to long list all files (Including Hidden Files) in your home directory:
 
    ```shell
-   ls -la ~ or ls -l -a ~
+   ls -la ~
    ```
+   which is shorthand notation for chaining flags, and is equivalent to:
+   ```shell
+      ls -l -a ~  
+   ```
+
+   More about this in the [Additional Information](#additional-information) section.
 
 2. If you want to know the items contained in `/etc` folder of the filesystem:
 
