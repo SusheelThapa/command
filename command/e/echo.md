@@ -156,6 +156,6 @@ Save this file
 
 1. Use the `--help` flag and print a `\` into the terminal.
 
-2. Create a file with your name with the `echo` command and the `>`redirect operator.
+2. Create a file with your name with the `echo` command and the `>` redirect operator.
 
 3. Create a file with two lines `Hello` and `World` using a single `echo` command and the `>`redirect operator.
