@@ -8,5 +8,8 @@
   - [cat](c/cat.md)
   - [cd](c/cd.md)
 
+- [e](e/echo.md)
+  - [echo](e/echo.md) 
+
 - [l](l/ls.md)
   - [ls](l/ls.md)
