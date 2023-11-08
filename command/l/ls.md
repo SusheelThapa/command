@@ -20,7 +20,7 @@ Some of the popular flags that are used with `ls` command are as follows:
 - [`-l`](#l): display more information about the items.
 - [`-r`](#r): lists the items in reverse order.
 - [`-t`](#t): lists the item sorted by time.
-- [`--help`](#help): get more information about the command and uncommon flags. 
+- [`--help`](#-help): get more information about the command and uncommon flags. 
 
 ### `-a`
 
