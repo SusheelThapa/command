@@ -139,6 +139,7 @@ cd [directory]
 ## Exercises
 
 1. You are in the `videogames` directory and want to navigate to the `movies` directory, which is a sibling of `videogames`. How would you use the cd command to achieve this?
+
    _Directory Tree_
 
    ```
