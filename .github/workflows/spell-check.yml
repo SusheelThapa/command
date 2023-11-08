@@ -12,5 +12,3 @@ jobs:
 
       - name: Run Spell Check on Markdown Files
         uses: crate-ci/typos@master
-        with:
-          files: ./*.md
