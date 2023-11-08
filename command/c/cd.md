@@ -2,23 +2,23 @@
 
 ## Description
 
-The `cd` command, also known as `chdir`(**ch**ange **dir**ectory), is a command-line shell command used to change the current working directory in various operating systems. IT can be used in shell scripts and batch files.
+The `cd` command, also known as `chdir`(**ch**ange **dir**ectory), is a command-line shell command used to change the current working directory in various operating systems. It can be used in shell scripts and batch files.
 
-The command syntax are:
+The syntax for the command is:
 
 ```shell
-cd directory
+cd [directory]
 ```
 
 ## Use cases
 
-1. Imagine you have a folder(`videogames`) on your computer where you keep all your video games. You use the `cd` command to go there so you can play your favorite games.
+1. Imagine you have a folder (`videogames`) on your computer where you keep all your video games. You use the `cd` command to go there so you can play your favorite games.
 
    ```shell
    cd videogames
    ```
 
-2. Suppose you have a folder(`music`) where you store your music. You use cd to enter that folder to listen to your favorite songs.
+2. Suppose you have a folder (`music`) where you store your music. You use `cd` to enter that folder to listen to your favorite songs.
 
    ```shell
    cd music
@@ -40,7 +40,7 @@ cd directory
 
 ## Additional Section
 
-1. **Navigating to the `root`` Directory**
+1. **Navigating to the `root` Directory**
 
    To navigate to the `root` directory, which is the top-level directory in the file system, we can use `cd / ` command.
 
@@ -50,7 +50,7 @@ cd directory
 
 2. **Navigating to `home` Directory**
 
-   To navigate to `home` folder, where personal files and settings are stored, we can use the `cd` command with either username or the tilde(`~`) symbol.
+   To navigate to `home` folder, where personal files and settings are stored, we can use the `cd` command with either username or the tilde (`~`) symbol.
 
    ```shell
    cd susheel
@@ -86,7 +86,7 @@ cd directory
 
    1. **Absolute Path**
 
-      - A abslute path specifies the complete directory structure from the root directory to the target directory.
+      - An absolute path specifies the complete directory structure from the root directory to the target directory.
       - It always begine with a forward slash (`/`) in the Unix-like systems.
 
       **Example**
@@ -106,7 +106,7 @@ cd directory
       _To navigate to the `pictures` directory using an absolute paths:_
 
       ```shell
-      cd /home/users/pictures
+      cd /home/user/pictures
       ```
 
    2. **Relative Paths**
@@ -138,13 +138,13 @@ cd directory
 
 ## Exercises
 
-1. You are in the `documents` directory and want to navigate to the `pictures` directory, which is a sibling of `documents`. How would you use the cd command to achieve this?
+1. You are in the `videogames` directory and want to navigate to the `movies` directory, which is a sibling of `videogames`. How would you use the cd command to achieve this?
    _Directory Tree_
 
    ```
     .
-   ├── documents
-   └── pictures
+   ├── movies
+   └── videogames
    ```
 
 2. You want to quickly switch between two directories named `work` and `projects` multiple times. How would you use the cd command to achieve this?
