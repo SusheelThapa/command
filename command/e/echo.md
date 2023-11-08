@@ -15,7 +15,7 @@ echo [flags] [text]
 Here are some flags associated with `echo`.
 
 - [`-e`](#e): enable interpretation of backslash escapes.
-- [`-E`](#e-1): disable interpretation of backslash escapes.
+- [`-E`](#E): disable interpretation of backslash escapes.
 - [`-n`](#n): do not output the trailing newline.
 - [`--help`](#-help): get more information about the command 
 
