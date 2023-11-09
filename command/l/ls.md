@@ -8,7 +8,7 @@ It can be modified with flags to further improve its functionality.
 
 The command syntax is:
 
-```shellv
+```shell
 ls [flags] [path to directory]
 ```
 
