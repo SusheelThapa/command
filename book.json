@@ -2,5 +2,21 @@
   "root": "command",
   "title": "Commands",
   "description": "",
-  "author": "Susheel Thapa"
+  "author": "Susheel Thapa",
+  "plugins": [
+    "chapter-fold",
+    "sitemap",
+    "hints",
+    "theme-creative",
+    "intopic-toc",
+    "hide-published-with"
+  ],
+  "pluginsConfig": {
+    "sitemap": {
+      "hostname": "https://jcommand.susheelthapa.com.np/"
+    },
+    "intopic-toc": {
+      "label": "In this Chapter"
+    }
+  }
 }
