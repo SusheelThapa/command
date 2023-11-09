@@ -13,11 +13,17 @@ jobs:
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           issue-message: |
-            👋 Hello @${{ github.actor }}! Thank you for submitting your first issue! We appreciate your contribution to our project. If you have any questions or need assistance, feel free to ask. :tada:
+            👋 Hello @${{ github.actor }}! Thank you for opening your first issue! We're grateful for your contribution to our project. If you have any questions or need assistance, feel free to ask. :tada:
 
-            If you want to work on this issue, make sure to mention it. Also, please follow the guidelines from [CONTRIBUTING.md](https://github.com/SusheelThapa/command/blob/main/CONTRIBUTING.md). Thanks! :heart:
+            If you want to work on this issue, make sure to mention about it.
+
+            Also, please follow the contribution guidelines from [CONTRIBUTING.md](https://github.com/SusheelThapa/command/blob/main/CONTRIBUTING.md).
+
+            Thanks! :heart:
 
           pr-message: |
-            👋 Hello @${{ github.actor }}! Thank you for your first pull request! Your contribution is awesome! If you need any guidance or have questions, please don't hesitate to reach out. :tada:
+            👋 Hello @${{ github.actor }}! Fantastic job on your first pull request! Your contribution is truly appreciated. If you have any questions or need guidance, feel free to reach out. :tada:
 
-            Our team will review it. In the meantime, check out the "Issues" tab if you'd like to make further contributions. Thanks! :heart:
+            Our team will review your changes. In the meantime, check out the "Issues" tab if you'd like to make further contributions.
+
+            Thanks! :heart:
