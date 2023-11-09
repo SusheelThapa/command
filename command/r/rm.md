@@ -178,7 +178,7 @@ rm --help
 ## Additional Information
 
 ### Caution:
-This command should be used carefully as the items deleted with `rm` are permanently deleted and do not remain  in trash folder.  
+This command should be used carefully as the items deleted with `rm` are permanently deleted and do not remain  in `trash` folder.  
 
 ### Wildcards:
 Wildcards such as `*` or `?` can be used with the `rm` command. For example: Let us consider that we have a `Pictures` folder that contains 50 pictures of the type `personal1.png, personal2.png` and so on. It also contains 50 more pictures of the type `work1.png, work2.png` and so on. If you're tasked with deleting the `work` pictures only then it can be tedious to remove it one by one. In that case we use the `?` wildcard as shown below:
