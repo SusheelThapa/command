@@ -32,7 +32,7 @@ Let us assume we want to display the word `Hello World` into the terminal such t
 echo -e "Hello\tWorld"
 ```
 
-Since `-e` is the default flag, we can ommit it and still get the same result.
+Since `-e` is the default flag, we can omit it and still get the same result.
 
 ```shell
 echo "Hello\tWorld"
@@ -131,7 +131,7 @@ echo --help
     World
     ```
 
-3. Printing the escape charactes as is:
+3. Printing the escape characters as is:
     ```shell
     echo -E "Hello\nWorld"
     ```
