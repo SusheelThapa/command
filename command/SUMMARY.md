@@ -17,3 +17,6 @@
 
 - [l](l/ls.md)
   - [ls](l/ls.md)
+
+- [r](r/rm.md)
+  - [rm](r/rm.md)
