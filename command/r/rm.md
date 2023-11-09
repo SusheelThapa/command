@@ -2,11 +2,11 @@
 
 ## Description
 
-`rm` is a standard Unix utility that removes files and directories. It should be used carefully as the items deleted with `rm` are permanently deleted and do not remain in `trash` folder.
+`rm` is a standard Unix utility that removes files and directories. 
 
 It can be modified with flags to further improve its functionality.
 
-The command syntax is:
+The `rm` command syntax is:
 
 ```shell
 rm [flags] [file / directory]
@@ -38,7 +38,7 @@ rm -d test
 
 _Output:_
 
-No Output, use `ls` command to verify.
+No Output, use [`ls`](../l/ls.md) command to verify.
 
 
 ### `-f`
@@ -68,7 +68,8 @@ rm -f file1.txt
 
 _Output:_
 
-No Output, use `ls` command to verify.
+No Output, use [`ls`](../l/ls.md) command to verify.
+
 
 
 ### `-i`
@@ -116,6 +117,10 @@ rm: remove directory 'test'? N
 ```
 
 This shows exactly how the `-r` flag traverses into the directory. Without the `-i` flag, there will be no output and the files are simply deleted.
+
+Note: `-d` flag and `-r` are different in the sense that `-d` is only used for removing empty directories whereas `-r` removes the directory along with the items inside it.
+
+If we used the `-d` flag in the above example, we'd simply get an error as the `test` folder is not empty.
 
 ### `-v`
 
@@ -171,6 +176,7 @@ rm --help
    ```
 
 ## Additional Information
+This command should be used carefully as the items deleted with `rm` are permanently deleted and do not remain  in trash folder.  
 
 Wildcards such as `*` or `?` can be used with the `rm` command. For example: Let us consider that we have a `Pictures` folder that contains 50 pictures of the type `personal1.png, personal2.png` and so on. It also contains 50 more pictures of the type `work1.png, work2.png` and so on. If you're tasked with deleting the `work` pictures only then it can be tedious to remove it one by one. In that case we use the `?` wildcard as shown below:
 
