@@ -1,105 +1,105 @@
 # `touch`
 
-## Description
+## description
 
-The `touch` command is a standard command used in the UNIX/Linux operating system which is used to create, change and modify the timestamps of a file. 
+the `touch` command is a standard command used in the unix/linux operating system which is used to create, change and modify the timestamps of a file. 
 
-It is used to create a file without any content. 
+it is used to create a file without any content. 
 
-Syntax for `touch` command is:
+syntax for `touch` command is:
 
 ```shell
 touch [flags] [file_names]
 ```
 
-## Flags
+## flags
 
-Some of the flags that are used with `touch` command are as follows:
+some of the flags that are used with `touch` command are as follows:
 
 - [`-a`](#a) : only to change access time of the file.
 - [`-c`](#c) or `--no-create`: do not create any files.
-- [`-d`](#d) or `--date=STRING`: parse STRING and use it instead of current time.
-- [`-m`](#m) : change only the modifcation time.
-- [`-r`](#r) or `--reference=FILE` : use this file's times instead of current time.
-- [`-t`](#t) STAMP : use [[CC]YY]MMDDhhmm[.ss] instead of current time.
+- [`-d`](#d) or `--date=string`: parse string and use it instead of current time.
+- [`-m`](#m) : change only the modification time.
+- [`-r`](#r) or `--reference=file` : use this file's times instead of current time.
+- [`-t`](#t) stamp : use [[cc]yy]mmddhhmm[.ss] instead of current time.
 
 - [`--help`](#help) : get more information about this command. 
 
 ### `-a`
 
-**Description:**
+**description:**
 
-It changes the access time of the file and does not chage the modification time unless -m is also specified.
+it changes the access time of the file and does not change the modification time unless -m is also specified.
 
-**Usage:**
+**usage:**
 
-Consider we want to change access time of a file `file1.txt`, make sure you are in the correct directory then:
+consider we want to change access time of a file `file1.txt`, make sure you are in the correct directory then:
 
 ```shell
 touch -a file1.txt
 ```
 
-You can use the following command to check the udpated time:
+you can use the following command to check the updated time:
 ```shell
 stat file1.txt
 ```
 ### `-c`
 
-**Description:**
+**description:**
 
-Using this flag, it does not create the file if it does not already exist. No diagnostic messages are written concerning this condition. It is usually used with other flags.
+using this flag, it does not create the file if it does not already exist. no diagnostic messages are written concerning this condition. it is usually used with other flags.
 
-**Usage:**
+**usage:**
 
-If we want to update the the access time of a file only if it exists then:
+if we want to update the the access time of a file only if it exists then:
 ```shell
 touch -c -a file1.txt
 ```
 
 ### `-d`
 
-**Description:**
+**description:**
 
-The `touch` command uses the `-d` option to set a timestamp using a date string. The date string is a flexible time format and accepts many different human-readable textual forms. some examples are:
+the `touch` command uses the `-d` option to set a timestamp using a date string. the date string is a flexible time format and accepts many different human-readable textual forms. some examples are:
 
-- Calender dates `11 November 2023`.
-- Time of day `9:08pm`.
-- Days of the week `Sunday`.
-- Relative time `yesterday`, `next tuesday` etc.
+- calender dates `11 november 2023`.
+- time of day `9:08pm`.
+- days of the week `sunday`.
+- relative time `yesterday`, `next tuesday` etc.
 
-**Usage:**
+**usage:**
 
-Let us use this flag to change the access and modify time of the file `file1.txt`:
+let us use this flag to change the access and modify time of the file `file1.txt`:
 ```shell
-touch -d "8 March 2023" file1.txt
+touch -d "8 march 2023" file1.txt
 ```
-Also,
+also,
 ```shell
 touch -d "yesterday" file1.txt
 ```
 
 ### `-m`
 
-**Description:**
+**description:**
 
-This flag is used to change modification time of the file. The `-m` option changes the modification time to the current timestamp by default.
+this flag is used to change modification time of the file. the `-m` option changes the modification time to the current timestamp by default.
 
-**Usage:**
+**usage:**
 
-If we want to update the the modificationtime of a file `file1.txt` then:
+if we want to update the the modificationtime of a file `file1.txt` then:
 ```shell
 touch -m file1.txt
 ```
 
 ### `-r`
 
-**Description:**
+**description:**
 
-The `touch` command offers a useful option to change a file's timestamp based on another file's timestamp.
+the `touch` command offers a useful option to change a file's timestamp based on another file's timestamp.
 
-**Usage:**
+**usage:**
 
-Let's update timestamp of `file1.txt` using `file2.txt` as reference. 
+let's update timestamp of `file1.txt` using `file2.txt` as reference. 
 
 ```shell
 touch -r <reference file> <file>
@@ -111,16 +111,16 @@ touch -r file2.txt file1.txt
 
 ### `-t`
 
-**Description:**
+**description:**
 
-Using `-t` we can explicitly state the timestamp. It is used in combination with other flags. The time is given in `YYMMDDHHMM`.
+using `-t` we can explicitly state the timestamp. it is used in combination with other flags. the time is given in `yymmddhhmm`.
 
-**Usage:**
+**usage:**
 
-Using following command timestamp is changed to `2023 Nov 12, 9:34pm`:
+using following command timestamp is changed to `2023 nov 12, 9:34pm`:
 
 ```shell
-touch -t YYMMDDHHMM filename
+touch -t yymmddhhmm filename
 ```
 ```shell
 touch -t 2311122134 file1.txt
@@ -128,32 +128,32 @@ touch -t 2311122134 file1.txt
 
 ### `-help`
 
-**Description:**
+**description:**
 
-With the `--help` option, the `touch` command will show flags and options for the command.
-**Usage:**
+with the `--help` option, the `touch` command will show flags and options for the command.
+**usage:**
 
 ```shell
 touch --help
 ```
 
-## Aditional Information
+## additional information
 
-We can use all of the above flags with multiple files.
+we can use all of the above flags with multiple files.
 ```shell
 touch file1.txt file2.txt file3.txt
 ```
 
-This command creates these files if they do not exist and update their timestamp.
+this command creates these files if they do not exist and update their timestamp.
 
-We can also use regular expression like `*.c` to modify timestamp of files at once.
+we can also use regular expression like `*.c` to modify timestamp of files at once.
 ```shell
 touch -m *.cpp
 ```
 
-## Exercises
+## exercises
 
-1. Use `touch` command to create a new file `FILE`.
-2. Use `-d` flag to update timestamp of `FILE` to `2024 Dec 10`.
-3. Use `-r` to update timestamp of `FLIE` using existing file.
-4. Udpate access time of `FILE` using `-t` to any date.
+1. use `touch` command to create a new file `file`.
+2. use `-d` flag to update timestamp of `file` to `2024 dec 10`.
+3. use `-r` to update timestamp of `file` using existing file.
+4. update access time of `file` using `-t` to any date.
