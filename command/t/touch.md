@@ -97,7 +97,7 @@ touch -m file1.txt
 
 The `touch` command offers a useful option to change a file's timestamp based on another file's timestamp.
 
-**usage:**
+**Usage:**
 
 Let's update timestamp of `file1.txt` using `file2.txt` as reference. 
 
