@@ -125,7 +125,7 @@ touch -t yymmddhhmm filename
 touch -t 2311122134 file1.txt
 ```
 
-### `-help`
+### `--help`
 
 **Description:**
 
