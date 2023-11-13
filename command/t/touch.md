@@ -29,7 +29,7 @@ Some of the flags that are used with `touch` command are as follows:
 
 **Description:**
 
-It changes the access time of the file and does not change the modification time unless -m is also specified.
+It changes the access time of the file and does not change the modification time unless `-m` is also specified.
 
 **Usage:**
 
