@@ -47,7 +47,7 @@ stat file1.txt
 
 **Description:**
 
-Using this flag, it does not create the file if it does not already exist. no diagnostic messages are written concerning this condition. it is usually used with other flags.
+Using this flag, it does not create the file if it does not already exist. No diagnostic messages are written concerning this condition and it is usually used with other flags.
 
 **Usage:**
 
