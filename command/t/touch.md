@@ -39,7 +39,7 @@ Consider we want to change access time of a file `file1.txt`, make sure you are 
 touch -a file1.txt
 ```
 
-You can use the following command to check the updated time:
+You can use the `stat` command to check the updated time:
 ```shell
 stat file1.txt
 ```
