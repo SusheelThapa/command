@@ -152,7 +152,7 @@ We can also use regular expression like `*.c` to modify timestamp of files at on
 touch -m *.cpp
 ```
 
-## exercises
+## Exercises:
 
 1. Use `touch` command to create a new file `file`.
 2. Use `-d` flag to update timestamp of `file` to `2024 dec 10`.
