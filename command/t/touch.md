@@ -108,7 +108,6 @@ touch -r <reference file> <file>
 touch -r file2.txt file1.txt
 ```
 
-
 ### `-t`
 
 **Description:**
