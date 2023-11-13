@@ -23,7 +23,7 @@ Some of the flags that are used with `touch` command are as follows:
 - [`-r`](#r) or `--reference=file` : use this file's times instead of current time.
 - [`-t`](#t) stamp : use [[cc]yy]mmddhhmm[.ss] instead of current time.
 
-- [`--help`](#help) : get more information about this command. 
+- [`--help`](#-help) : get more information about this command. 
 
 ### `-a`
 
