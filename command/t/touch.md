@@ -44,13 +44,14 @@ You can use the `stat` command to check the updated time:
 ```shell
 $ stat file1.txt
   File: file.txt
-  Size: 0               Blocks: 0          IO Block: 4096   regular empty file
-Device: 814h/2068d      Inode: 728677      Links: 1
-Access: (0777/-rwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
-Access: 2023-11-13 22:53:57.720686900 +0545
-Modify: 2023-11-13 22:53:57.720433700 +0545
-Change: 2023-11-13 22:53:57.720686900 +0545
- Birth: -
+  Size: 0         	Blocks: 0          IO Block: 4096   regular empty file
+Device: 10303h/66307d	Inode: 20452679    Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/sandeshpyakurel)   Gid: ( 1000/sandeshpyakurel)
+Access: 2023-11-12 21:32:00.000000000 +0545
+Modify: 2023-11-12 21:32:00.000000000 +0545
+Change: 2023-11-11 21:34:49.051967025 +0545
+ Birth: 2023-11-11 20:46:42.690779555 +0545
+
 ```
 
 ### `-c`
