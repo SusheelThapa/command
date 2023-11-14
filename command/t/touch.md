@@ -129,7 +129,7 @@ touch -r file2.txt file1.txt
 
 **Description:**
 
-Using `-t` we can explicitly state the timestamp. it is used in combination with other flags. the time is given in `yymmddhhmm`.
+Using `-t` we can explicitly state the timestamp. It is used in combination with other flags. The time is given in `yymmddhhmm` format.
 
 **Usage:**
 
