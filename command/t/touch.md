@@ -42,7 +42,15 @@ touch -a file1.txt
 You can use the `stat` command to check the updated time:
 
 ```shell
-stat file1.txt
+$ stat file1.txt
+  File: file.txt
+  Size: 0               Blocks: 0          IO Block: 4096   regular empty file
+Device: 814h/2068d      Inode: 728677      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2023-11-13 22:53:57.720686900 +0545
+Modify: 2023-11-13 22:53:57.720433700 +0545
+Change: 2023-11-13 22:53:57.720686900 +0545
+ Birth: -
 ```
 
 ### `-c`
