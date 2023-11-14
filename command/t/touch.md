@@ -133,7 +133,7 @@ Using `-t` we can explicitly state the timestamp. It is used in combination with
 
 **Usage:**
 
-Using following command timestamp is changed to `2023 nov 12, 9:34pm`:
+Using following command, timestamp is changed to `2023 nov 12, 9:34pm`:
 
 ```shell
 touch -t yymmddhhmm filename
