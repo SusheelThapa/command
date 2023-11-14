@@ -101,7 +101,7 @@ This flag is used to change modification time of the file. the `-m` option chang
 
 **Usage:**
 
-If we want to update the the modificationtime of a file `file1.txt` then:
+If we want to update the the modification time of a file named `file1.txt` then:
 
 ```shell
 touch -m file1.txt
