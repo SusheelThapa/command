@@ -51,7 +51,6 @@ Access: 2023-11-12 21:32:00.000000000 +0545
 Modify: 2023-11-12 21:32:00.000000000 +0545
 Change: 2023-11-11 21:34:49.051967025 +0545
  Birth: 2023-11-11 20:46:42.690779555 +0545
-
 ```
 
 ### `-c`
@@ -75,9 +74,9 @@ touch -c -a file1.txt
 The `touch` command uses the `-d` option to set a timestamp using a date string. Date string is a flexible time format which accepts many different human-readable textual forms. Some examples are:
 
 - Calendar dates `11 november 2023`.
-- time of day `9:08pm`.
-- days of the week `sunday`.
-- relative time `yesterday`, `next tuesday` etc.
+- Time of day `9:08pm`.
+- Day of the week `sunday`.
+- Relative time `yesterday`, `next tuesday` etc.
 
 **Usage:**
 
