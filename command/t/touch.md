@@ -61,7 +61,7 @@ Using this flag, it does not create the file if it does not already exist. No di
 
 **Usage:**
 
-If we want to update the the access time of a file only if it exists then:
+If we want to update the access time of a file only if it exists then:
 
 ```shell
 touch -c -a file1.txt
