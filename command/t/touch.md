@@ -16,9 +16,9 @@ touch [flags] [file_names]
 
 Some of the flags that are used with `touch` command are as follows:
 
-- [`-a`](#a): only to change access time of the file.
-- [`-c`](#c) or `--no-create`: do not create any files.
-- [`-d`](#d) or `--date=string`: parse string and use it instead of current time.
+- [`-a`](#a) : only to change access time of the file.
+- [`-c`](#c) or `--no-create` : do not create any files.
+- [`-d`](#d) or `--date=string` : parse string and use it instead of current time.
 - [`-m`](#m) : change only the modification time.
 - [`-r`](#r) or `--reference=file` : use this file's times instead of current time.
 - [`-t`](#t) stamp : use [[cc]yy]mmddhhmm[.ss] instead of current time.
@@ -43,7 +43,7 @@ You can use the `stat` command to check the updated time:
 
 ```shell
 $ stat file1.txt
-  File: file.txt
+  File: file1.txt
   Size: 0         	Blocks: 0          IO Block: 4096   regular empty file
 Device: 10303h/66307d	Inode: 20452679    Links: 1
 Access: (0664/-rw-rw-r--)  Uid: ( 1000/sandeshpyakurel)   Gid: ( 1000/sandeshpyakurel)
