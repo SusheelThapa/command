@@ -87,7 +87,7 @@ cd [directory]
    1. **Absolute Path**
 
       - An absolute path specifies the complete directory structure from the root directory to the target directory.
-      - It always begine with a forward slash (`/`) in the Unix-like systems.
+      - It always begins with a forward slash (`/`) in the Unix-like systems.
 
       **Example**
 
