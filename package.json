@@ -6,9 +6,11 @@
   "license": "MIT",
   "scripts": {
     "build": "honkit build",
-    "serve": "honkit serve"
+    "serve": "honkit serve",
+    "lint:spellcheck": "cspell . --no-progress"
   },
   "devDependencies": {
+    "cspell": "^8.0.0",
     "honkit": "^5.1.1"
   },
   "dependencies": {
