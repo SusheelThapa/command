@@ -172,7 +172,7 @@ _Output:_
 
 **Description:**
 
-With `-v` optiton, the `cat` command will display all the non-printing characters with **caret** and meta notation, except the line feed and tabulation.
+With `-v` option, the `cat` command will display all the non-printing characters with **caret** and meta notation, except the line feed and tabulation.
 
 With `-v` option, control characters will appear as a caret(`^`) followed by the appropriate ASCII characters(e.g., the \_carriage_return, byte 13, is displayed as `^M` because `M` in ASCII is 64 +13), and character with the high-order bit set will appear in "meta" notation `M-` followed by the representation corresponding to the 7 lower bits(e.g., the byte 141 will be displayed as `M-^M` because 141 is 128 + 13)
 
