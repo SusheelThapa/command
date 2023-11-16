@@ -16,14 +16,14 @@ touch [flags] [file_names]
 
 Some of the flags that are used with `touch` command are as follows:
 
-- [`-a`](#a) : only to change access time of the file.
-- [`-c`](#c) or `--no-create` : do not create any files.
-- [`-d`](#d) or `--date=string` : parse string and use it instead of current time.
-- [`-m`](#m) : change only the modification time.
-- [`-r`](#r) or `--reference=file` : use this file's times instead of current time.
-- [`-t`](#t) stamp : use [[cc]yy]mmddhhmm[.ss] instead of current time.
+- [`-a`](#a): only to change access time of the file.
+- [`-c`](#c) or `--no-create`: do not create any files.
+- [`-d`](#d) or `--date=string`: parse string and use it instead of current time.
+- [`-m`](#m): change only the modification time.
+- [`-r`](#r) or `--reference=file`: use this file's times instead of current time.
+- [`-t`](#t) stamp: use [[cc]yy]mmddhhmm[.ss] instead of current time.
 
-- [`--help`](#-help) : get more information about this command.
+- [`--help`](#-help): get more information about this command.
 
 ### `-a`
 
