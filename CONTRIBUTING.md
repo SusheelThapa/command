@@ -61,7 +61,7 @@ git checkout -b your-branch-name
 
 ### Make Changes
 
-Make your changes to the code, documentation, or other project files.
+Make your changes to the code, documentation, or other project files with reference  to this [discussion](https://github.com/SusheelThapa/command/discussions/7).
 
 > Sam add documentation for the `tar` command.
 
