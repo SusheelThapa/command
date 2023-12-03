@@ -41,6 +41,8 @@ Here are the steps to follow when making contributions:
 
 Click the "Fork" button on the GitHub repository to create your own copy of the project.
 
+![pointer to fork button](./public/images/fork.png)
+
 > Sam has forked the repository in Github.
 
 ### Clone Your Fork
@@ -71,7 +73,7 @@ Make your changes to the code, documentation, or other project files with refere
 git commit -m "Description of your changes"
 ```
 
-> _git commit -m "docs: added documentation on tar command_
+> _git commit -m "docs: added documentation on tar command"_
 
 ### Push you changes
 
