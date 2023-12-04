@@ -55,7 +55,7 @@ The `command` is a comprehensive online resource designed to help users, from be
 Before you start using `command` project, make sure you have the following prerequisites installed:
 
 - [Nodejs](https://nodejs.org/en)
-- [yarn](https://yarnpkg.com/git)
+- [yarn](https://yarnpkg.com/getting-started/install)
 - [Git](https://git-scm.com/)
 - [Code Editor](https://code.visualstudio.com/)
 
