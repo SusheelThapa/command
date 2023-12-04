@@ -26,10 +26,9 @@ In above output section, first `sasa` denotes user and second `sasa` denotes its
 
 You can also check the owner ship of any folder. You should be in position where when typed `ls` shows your directory `test_folder` (example folder), then type below command to see owner ship of your `test_foler`.
 
-eg: 
+Examples: 
 ```shell
-ls -l ./
-```
+ls -l 
 
 _Output:_
 ```shell
