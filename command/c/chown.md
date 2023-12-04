@@ -9,7 +9,7 @@ For displaying the owner of any file or folder, one can use
 ls -l [file or folder name]
 ```
 
-example: 
+Example: 
 
 ```shell
 ls -l test.txt 
