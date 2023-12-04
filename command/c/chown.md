@@ -20,7 +20,7 @@ _Output:_
 -rw-rw-r-- 1 sasa sasa 0 Dec  3 21:42 test.txt
 ```
 
-In above output section first 'sasa' denotes user and 'sasa' second denotes its group.
+In above output section, first `sasa` denotes user and second `sasa` denotes its group.
 
 
 
