@@ -54,7 +54,7 @@ In above output section, ownership changed to user `root` from user `sasa`. Grou
 
 _Note:_
 
-You can also use owner userid in place of owner to change ownership in above example like: 
+You can also use owner `user_id` in place of owner to change ownership in above example like: 
     
 ```shell
     id -u user_name
