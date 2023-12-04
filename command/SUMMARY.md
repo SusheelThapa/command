@@ -10,7 +10,7 @@
 
   - [cat](c/cat.md)
   - [cd](c/cd.md)
-  - [chwon](c/chown.md)
+  - [chown](c/chown.md)
 
 - [e](e/echo.md)
 
