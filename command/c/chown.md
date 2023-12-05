@@ -23,8 +23,6 @@ _Output:_
 
 In above output section, first `sasa` denotes user and second `sasa` denotes its group.
 
-
-
 You can also check the owner ship of any folder. Suppose you are in folder which contains test_folder which you can check by using ls command then type below command to see owner ship of your `test_folder`.
 
 Examples: 
@@ -51,6 +49,7 @@ Suppose output is:
 _Output:_
 ```shell
 -rw-rw-r-- 1 sasa sasa 0 Dec  3 21:42 test.txt
+```
 
 Now, Suppose I want to change it to user `root` from user `sasa` then it can be done by below command: 
 
@@ -66,30 +65,32 @@ _Output:_
 
 In above output section, ownership changed to user `root` from user `sasa`. Group `sasa` still has ownership. 
 
-_Note:_
+##### _Note:_
 
 You can also use owner `user_id` in place of owner to change ownership in above example like: 
     
 ```shell
 id -u user_name
 ```
-Suppose, output is 1000.
 
+Suppose, output is 1000.
 Now, you can replace `user_name` with its `user_id`. 
 Example: In place of `sudo chown user_name test.txt`, you can use below:
 
 ```shell
 sudo chown 1000 test.txt
-
 ```
 
-_Another Note:_
+##### _Another Note:_
+
 For changing ownership of folder, you can do it similarly like:
 
 ```shell
 sudo chown root test_folder
 ```
+
 It gives ownership of test_folder to `root` user.
+
  
 
 ### 2. Changing the group of a file. 
@@ -119,7 +120,7 @@ _Output:_
 
 Changed group of file `test.txt` changed from `sasa` to `root`.
 
-_Note:_
+##### _Note:_
 
 You can also use owner `group_id` in place of `group` to change ownership in above example like: 
     
@@ -185,20 +186,21 @@ Syntax:
 sudo chown --reference=source_file destination file
 ```
 
-
 ## Flags
--   [`--reference=RFILE `](#referencerfile)
--   [`-v, --verbose `](#v---verbose)
--   [`-c, --changes `](#c---changes)
--   [`-R, --recursive`](#r---recursive)
--   [`--from=CURRENT_OWNER:CURRENT_GROUP`](#fromcurrent_ownercurrent_group)
+-   [`--reference`](#reference)
+-   [`-v, --verbose`](#verbose)
+-   [`-c, --changes`](#changes)
+-   [`-R, --recursive`](#recursive)
+-   [`--from=CURRENT_OWNER:CURRENT_GROUP`](#from)
 
 
-### --reference=RFILE
+<div id="reference"></div>
+
+### --reference
 
 **Description:** 
 
-Reference a file to use its owner and group for another file ( use RFILE's owner and group rather than specifying OWNER:GROUP values )
+`--reference=RFILE`, Reference a file to use its owner and group for another file ( use RFILE's owner and group rather than specifying OWNER:GROUP values )
 
 **Usage:** 
 
@@ -206,6 +208,7 @@ Reference a file to use its owner and group for another file ( use RFILE's owner
 sudo chown --reference=reference_file target_file
 ```
 
+<div id="verbose"></div>
 
 ### -v, --verbose
 
@@ -220,6 +223,7 @@ sudo chown -v new_owner:new_group target_file
 
 ```
 
+<div id="changes"></div>
 
 ### -c, --changes
 
@@ -234,7 +238,7 @@ sudo chown -c new_owner:new_group target_file
 
 ```
 
-
+<div id="recursive"></div>
 
 ### -R, --recursive
 
@@ -246,7 +250,9 @@ Operates in files and directory recursively.
 
 ```shell
 sudo chown -R new_owner:new_group target_directory
+```
 
+<div id="from"></div>
 
 ### --from=CURRENT_OWNER:CURRENT_GROUP
 
