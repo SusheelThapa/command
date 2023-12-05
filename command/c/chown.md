@@ -270,7 +270,7 @@ Imagine you're managing a shared project on a Linux server, and a team member ha
 
 ####  Exercise 1: Change Ownership of a File
 
-You have a file named important_document.txt in your home directory, and you want to change its ownership to a user named secure_user and a group named restricted_group. Use the chown command to accomplish this task.
+You have a file named `important_document.txt` in your home directory, and you want to change its ownership to a user named `secure_user` and a group named `restricted_group`. Use the `chown` command to accomplish this task.
 
 ####  Exercise 2: Recursively Change Ownership of a Directory
 
