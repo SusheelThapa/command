@@ -214,6 +214,7 @@ sudo chown --reference=reference_file target_file
 Verbose, its prints what action has happened when used.
 
 **Usage:** 
+
 ```shell
 sudo chown -v new_owner:new_group target_file
 
