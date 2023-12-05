@@ -201,6 +201,7 @@ sudo chown --reference=source_file destination file
 Reference a file to use its owner and group for another file ( use RFILE's owner and group rather than specifying OWNER:GROUP values )
 
 **Usage:** 
+
 ```shell
 sudo chown --reference=reference_file target_file
 ```
