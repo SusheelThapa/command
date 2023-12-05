@@ -166,7 +166,6 @@ sudo chown sasa:sasa test.txt
 _Output:_
 ```shell
 -rw-rw-r-- 1 sasa sasa 0 Dec  3 21:42 test.txt
-
 ```
 
 Ownership changed to user `sasa` and  group `sasa`.
