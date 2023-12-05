@@ -115,7 +115,6 @@ sudo chown :root test.txt
 _Output:_
 ```shell
 -rw-rw-r-- 1 root root 0 Dec  3 21:42 test.txt
-
 ```
 
 Changed group of file `test.txt` changed from `sasa` to `root`.
