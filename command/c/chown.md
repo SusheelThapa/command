@@ -243,9 +243,9 @@ sudo chown -c new_owner:new_group target_file
 Operates in files and directory recursively.
 
 **Usage:** 
+
 ```shell
 sudo chown -R new_owner:new_group target_directory
-```
 
 
 ### --from=CURRENT_OWNER:CURRENT_GROUP
