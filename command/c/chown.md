@@ -134,7 +134,10 @@ id -g root
 Suppose, output is 0 .
 
 Now, you can replace `user_name` with its `user_id`. 
-Example: In place of "sudo chown :0 test.txt", you can use below:
+
+Example:
+ 
+In place of "sudo chown :0 test.txt", you can use below:
 
 ```shell
 sudo chown 1000 test.txt
