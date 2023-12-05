@@ -24,7 +24,7 @@ In above output section, first `sasa` denotes user and second `sasa` denotes its
 
 
 
-You can also check the owner ship of any folder. Suppose you are in folder which contains test_folder which you can check by using ls command then type below command to see owner ship of your `test_foler`.
+You can also check the owner ship of any folder. Suppose you are in folder which contains test_folder which you can check by using ls command then type below command to see owner ship of your `test_folder`.
 
 Examples: 
 ```shell
@@ -33,7 +33,7 @@ ls -l
 
 _Output:_
 ```shell
-drwxrwxr-x  2 sasa sasa    4096 Dec  3 21:42  test_foler
+drwxrwxr-x  2 sasa sasa    4096 Dec  3 21:42  test_folder
 
 ```
 
