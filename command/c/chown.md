@@ -275,7 +275,7 @@ You have a file named important_document.txt in your home directory, and you wan
 
 ####  Exercise 2: Recursively Change Ownership of a Directory
 
-You have a directory named project_files in your home directory, and it contains multiple subdirectories and files. You want to change the ownership of the entire directory and its contents to a user named project_owner and a group named project_group. Use the chown command with the recursive flag to achieve this.
+You have a directory named `project_files` in your home directory, and it contains multiple subdirectories and files. You want to change the ownership of the entire directory and its contents to a user named `project_owner` and a group named `project_group`. Use the `chown` command with the recursive flag to achieve this.
 
 ####  Exercise 3: Copy Ownership from a Reference Directory
 
