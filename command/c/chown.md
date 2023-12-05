@@ -255,6 +255,7 @@ sudo chown -R new_owner:new_group target_directory
 Change the owner and/or group of each file only if its current owner and/or group match those  specified  here. Either may be omitted, in which case a match is not required for the omitted attribute
 
 **Usage:** 
+
 ```shell
 sudo chown --from=current_owner:current_group new_owner:new_group target_file
 
