@@ -279,4 +279,4 @@ You have a directory named project_files in your home directory, and it contains
 
 ####  Exercise 3: Copy Ownership from a Reference Directory
 
-You have two directories, source_directory and destination_directory. You want to set the ownership of the destination_directory to match that of the source_directory. Use the chown command with the --reference flag to copy the ownership from the source to the destination.
+You have two directories, `source_directory` and `destination_directory`. You want to set the ownership of the `destination_directory` to match that of the `source_directory`. Use the `chown` command with the `--reference` flag to copy the ownership from the source to the destination.
