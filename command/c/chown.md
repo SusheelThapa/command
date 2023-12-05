@@ -141,7 +141,6 @@ In place of "sudo chown :0 test.txt", you can use below:
 
 ```shell
 sudo chown 1000 test.txt
-
 ```
 
 ### 3. Changing both file ownership and group at once. 
