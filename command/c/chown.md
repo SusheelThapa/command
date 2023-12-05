@@ -156,7 +156,6 @@ Suppose output is:
 _Output:_
 ```shell
 -rw-rw-r-- 1 root root 0 Dec  3 21:42 test.txt
-
 ```
 
 Now, Suppose I want to change it to user `sasa` and group `sasa` then it can be done by below command: 
