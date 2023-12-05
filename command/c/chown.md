@@ -119,7 +119,6 @@ _Output:_
 
 Changed group of file `test.txt` changed from `sasa` to `root`.
 
-
 _Note:_
 
 You can also use owner `group_id` in place of `group` to change ownership in above example like: 
