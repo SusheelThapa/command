@@ -227,7 +227,8 @@ sudo chown -v new_owner:new_group target_file
 
 Like verbose but report only when a change is made.
 
-**Usage:** 
+**Usage:**
+ 
 ```shell
 sudo chown -c new_owner:new_group target_file
 
