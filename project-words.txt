@@ -2,6 +2,7 @@ behaviours
 catenare
 CDEFGHIJSTUVWXY
 chdir
+drwxrwxr
 ectory
 Exif
 firstname
@@ -15,10 +16,14 @@ nonprinting
 numberedcomic
 PJFIF
 popularised
+RFILE
+RFILE's
 sandeshpyakurel
+sasa
 susheel
 Susheel
 Thapa
+userid
 videogames
 yymmddhhmm
 Zcdefghijstuvwxyz
