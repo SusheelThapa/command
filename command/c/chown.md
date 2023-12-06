@@ -219,7 +219,6 @@ Verbose, its prints what action has happened when used.
 
 ```shell
 sudo chown -v new_owner:new_group target_file
-
 ```
 
 <div id="changes"></div>
@@ -234,7 +233,6 @@ Like verbose but report only when a change is made.
  
 ```shell
 sudo chown -c new_owner:new_group target_file
-
 ```
 
 <div id="recursive"></div>
@@ -263,15 +261,14 @@ Change the owner and/or group of each file only if its current owner and/or grou
 
 ```shell
 sudo chown --from=current_owner:current_group new_owner:new_group target_file
-
 ```
 
 ## Use Case
 Imagine you're managing a shared project on a Linux server, and a team member has recently left the project, leaving behind some crucial files in their home directory. To ensure continued access and collaboration, you need to transfer ownership of the files to a new team member. Using the `chown` command, you can swiftly change the ownership of the entire directory, including its subdirectories and files, to the new team member's user and group, ensuring seamless collaboration without any disruption in accessing or modifying the project files. The command would look something like this: 
 
 ```shell
-    sudo chown -R new_user:new_group /home/old_user/project.
-
+sudo chown -R new_user:new_group /home/old_user/project.
+```
 
 
 ## Exercises
