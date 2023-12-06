@@ -106,7 +106,7 @@ _Output:_
 -rw-rw-r-- 1 sasa sasa 0 Dec  3 21:42 test.txt
 ```
 
-Now, Suppose I want to change it to group `root` then it can be done by below command: 
+Now, suppose I want to change it to group `root` then it can be done by below command: 
 
 ```shell
 sudo chown :root test.txt
