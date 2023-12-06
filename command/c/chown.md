@@ -182,7 +182,7 @@ sudo chown owner_name file1 file2 file3
 
 Syntax: 
 ```shell
-sudo chown --reference=source_file destination file
+sudo chown --reference=source_file destination_file
 ```
 
 ## Flags
