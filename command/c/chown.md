@@ -38,7 +38,7 @@ drwxrwxr-x  2 sasa sasa    4096 Dec  3 21:42  test_folder
 
 ### 1. Changing ownership of file to another user.
 
-First checking the ownership of file from below command:
+First, checking the ownership of file from the command below:
 
 ```shell
 ls -l test.txt
