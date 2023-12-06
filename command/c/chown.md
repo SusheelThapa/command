@@ -50,7 +50,7 @@ _Output:_
 -rw-rw-r-- 1 sasa sasa 0 Dec  3 21:42 test.txt
 ```
 
-Now, Suppose I want to change it to user `root` from user `sasa` then it can be done by below command: 
+Now, suppose I want to change it to the user `root` from the user `sasa`; this can be done using the command below:
 
 ```shell
 sudo chown root test.txt
