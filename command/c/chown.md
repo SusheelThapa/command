@@ -94,7 +94,7 @@ It gives ownership of test_folder to `root` user.
 
 ### 2. Changing the group of a file. 
 
-First checking the ownership of file from below command:
+First, checking the ownership of file from the command below:
 
 ```shell
 ls -l test.txt
