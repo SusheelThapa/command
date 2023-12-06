@@ -43,9 +43,9 @@ First, checking the ownership of file from the command below:
 ```shell
 ls -l test.txt
 ```
+
 Suppose output is:
 
-_Output:_
 ```shell
 -rw-rw-r-- 1 sasa sasa 0 Dec  3 21:42 test.txt
 ```
@@ -99,7 +99,6 @@ ls -l test.txt
 ```
 Suppose output is:
 
-_Output:_
 ```shell
 -rw-rw-r-- 1 sasa sasa 0 Dec  3 21:42 test.txt
 ```
@@ -129,33 +128,33 @@ Example:
 ```shell
 id -g root
 ```
-Suppose, output is 0 .
+Suppose, output is 0.
 
-Now, you can replace `user_name` with its `user_id`. 
+Now, you can replace `group_name` with its `group_id`. 
 
 Example:
  
-In place of "sudo chown :0 test.txt", you can use below:
+In place of `sudo chown group_name test.txt`, you can use the command below:
 
 ```shell
-sudo chown 1000 test.txt
+sudo chown :0 test.txt
 ```
 
 ### 3. Changing both file ownership and group at once. 
 
-First checking the owner ship of file from below command:
+First checking the ownership of file from the command below:
 
 ```shell
 ls -l test.txt
 ```
+
 Suppose output is:
 
-_Output:_
 ```shell
 -rw-rw-r-- 1 root root 0 Dec  3 21:42 test.txt
 ```
 
-Now, Suppose I want to change it to user `sasa` and group `sasa` then it can be done by below command: 
+Now, suppose I want to change it to user `sasa` and group `sasa` then it can be done by the command below:
 
 ```shell
 sudo chown sasa:sasa test.txt
@@ -168,7 +167,6 @@ _Output:_
 
 Ownership changed to user `sasa` and  group `sasa`.
 
-
 ### 4. Changing owner of multiple files 
 
 You can use different files with space in between them to change ownership of multiple files at once. 
@@ -176,6 +174,7 @@ You can use different files with space in between them to change ownership of mu
 ```shell
 sudo chown owner_name file1 file2 file3 
 ```
+
 ### 5. Copying owner and group of file to another file. 
 
 Syntax: 
