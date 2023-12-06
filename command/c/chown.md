@@ -2,7 +2,7 @@
 
 ## Description
 
-`chown` stands for change owner which changes user or group ownership of a file, directory, or symbolic link. Every file or directory has group or user ownership in Linux. Since, multiple users and groups can use same Linux system so they all have unique names and IDs. Name and ID of a user and a group can be same. 
+`chown` stands for change owner which changes user or group ownership of a file, directory, or symbolic link. Every file or directory has group or user ownership in Linux. Since multiple users and groups can use same Linux system, they all have unique names and IDs. Name and ID of a user and a group can be same.
 
 For displaying the owner of any file or folder, one can use 
 
