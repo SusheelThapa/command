@@ -74,7 +74,7 @@ id -u user_name
 
 Suppose, output is 1000.
 Now, you can replace `user_name` with its `user_id`. 
-Example: In place of `sudo chown user_name test.txt`, you can use below:
+Example: In place of `sudo chown user_name test.txt`, you can use the command below:
 
 ```shell
 sudo chown 1000 test.txt
