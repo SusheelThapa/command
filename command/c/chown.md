@@ -34,7 +34,6 @@ ls -l
 _Output:_
 ```shell
 drwxrwxr-x  2 sasa sasa    4096 Dec  3 21:42  test_folder
-
 ```
 
 ### 1. Changing ownership of file to another user.
