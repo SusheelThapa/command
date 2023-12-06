@@ -199,7 +199,7 @@ sudo chown --reference=source_file destination file
 
 **Description:** 
 
-`--reference=RFILE`, Reference a file to use its owner and group for another file ( use RFILE's owner and group rather than specifying OWNER:GROUP values )
+`--reference=RFILE`: Reference a file to use its owner and group for another file (use `RFILE`'s owner and group rather than specifying `OWNER:GROUP` values)
 
 **Usage:** 
 
