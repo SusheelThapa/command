@@ -90,8 +90,6 @@ sudo chown root test_folder
 
 It gives ownership of test_folder to `root` user.
 
- 
-
 ### 2. Changing the group of a file. 
 
 First, checking the ownership of file from the command below:
@@ -106,7 +104,7 @@ _Output:_
 -rw-rw-r-- 1 sasa sasa 0 Dec  3 21:42 test.txt
 ```
 
-Now, suppose I want to change it to group `root` then it can be done by below command: 
+Now, suppose I want to change it to group `root` then it can be done by command below: 
 
 ```shell
 sudo chown :root test.txt
